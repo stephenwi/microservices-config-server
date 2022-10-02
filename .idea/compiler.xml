@@ -7,17 +7,17 @@
         <sourceOutputDir name="../target/generated-sources/annotations" />
         <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api-gateway" />
         <module name="product-service" />
         <module name="order-service" />
-        <module name="inventory-service" />
-        <module name="discovery-servers" />
       </profile>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
         <module name="security" />
+        <module name="inventory-service" />
+        <module name="discovery-servers" />
       </profile>
     </annotationProcessing>
   </component>
